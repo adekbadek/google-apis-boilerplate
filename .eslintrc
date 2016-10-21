@@ -1,0 +1,14 @@
+{
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "no-multiple-empty-lines": 1,
+    "padded-blocks": 1,
+    "comma-dangle": 0,
+    "react/prop-types": 0,
+    "react/jsx-no-bind": 0,
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Google APIs Boilerplate
+
+  body
+
+    if authorized
+      h1= 'hello ' + userinfo.given_name
+    else
+      h1 authorization needed
+
+    #biglinks
+      if authorized
+        a.btn.ui-btn(href='/logout') logout
+      else
+        a.btn.ui-btn(href='/auth') authorize
+
+    style.
+      body{
+        font-family: sans-serif;
+        text-align: center;
+        background: #e0e0e0;
+      }
+      h1{
+        font-weight: lighter;
+      }
+      #biglinks{
+        margin-top: 10vh;
+      }
+      a{
+        padding: 10px 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        font-size: 30px;
+        background: #00ff30;
+        color: black;
+        border-radius: 4px
+      }

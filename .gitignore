@@ -1,0 +1,10 @@
+node_modules
+calendar-creds.json
+.env
+.colors.js
+store
+assets/js
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+.sass-cache

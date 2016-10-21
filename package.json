@@ -1,0 +1,27 @@
+{
+  "name": "google-apis-boilerplate",
+  "version": "1.0.0",
+  "description": "Google APIs Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "author": "Adam Borowski",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "google-auth-library": "^0.9.8",
+    "googleapis": "^10.0.0",
+    "pug": "^2.0.0-beta5"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
