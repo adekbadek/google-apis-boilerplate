@@ -6,10 +6,10 @@
 
   - create a project in [console.developers.google.com](https://console.developers.google.com/)
   - in project, create OAuth credentials and fill:
-    - 'Authorized JavaScript origins' with `http://localhost:3000` and `<your-domain>`
-    - 'Authorized redirect URIs' with `http://localhost:3000/authcallback` and `<your-domain>/authcallback`
+    - 'Authorized JavaScript origins' with `http://localhost:3000` and `<production-domain>`
+    - 'Authorized redirect URIs' with `http://localhost:3000/authcallback` and `<production-domain>/authcallback`
   - create `.env` file with following entries from the credentials: `CLIENT_ID`, `CLIENT_SECRET`, `REDIRECT_URL`
-  - run server locally - `$ npm run dev`
+  - run server locally - `$ npm run start`
 
 ## google stuff
 
